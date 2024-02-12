@@ -12,16 +12,5 @@ public class news {
 		this.period = period;
 	}
 	
-	float getamt() {
-		return amt;
-	}
 	
-	float getrate() {
-		return rate;
-	}
-	
-	void display() {
-		float intt = amt * (rate/100)*period;
-		System.out.println("SI: "+intt);
-	}
 }
